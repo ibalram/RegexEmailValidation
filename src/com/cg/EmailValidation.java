@@ -10,7 +10,7 @@ public class EmailValidation {
 		System.out.println("Email validation program");
 		System.out.println("------------------------");
 		String email;
-		String emailPattern = "^[a-zA-Z0-9+_-]+@[a-zA-Z0-9]+.*";
+		String emailPattern = "^[a-zA-Z0-9+_-]+@[a-zA-Z0-9]+([.][a-z]{2,}).*";
 		boolean repeat = true;
 		while(repeat) {
 			System.out.println("Select option:\n1. Enter mail to check\n2. exit");
